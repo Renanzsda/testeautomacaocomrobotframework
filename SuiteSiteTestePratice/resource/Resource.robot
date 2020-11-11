@@ -107,6 +107,10 @@ Adicionar mais valores para o produto.
 Validar "login" errado
       Page Should Contain    Authentication failed.
 
+Não deve ser encontrado nada
+      Page Should Contain     No results were found for your search
+
+
 
 
 

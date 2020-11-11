@@ -50,6 +50,16 @@ Caso de Teste 03: Tentar realizar login com dados inválidos
     Realizar o "login" utilizando o e-mail "testefalhar@gmail.com" e a senha "falhou"
     Validar "login" errado
 
+Caso de Teste 04: Pesquisar por um produto que não existe
+    Acessar a página home do site
+    Acessar a página de "login"
+    Realizar o "login" utilizando o e-mail "renanzsda@gmail.com" e a senha "renan"
+    Verificar se o "login" foi realizado com sucesso verificando se o nome do usuário "logado" é "Renan Silva de Araújo"
+    Digitar o nome do produto "Teste" no campo de pesquisa
+    Clicar no botão Pesquisar
+    Não deve ser encontrado nada
+
+
 
 
 # *** Keywords ***
